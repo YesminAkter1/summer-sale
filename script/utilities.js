@@ -58,12 +58,12 @@ function backToHome() {
 }
 
  if (cupponNumber == "SELL200") {
-     const discountedAmount = total * 0.2;
-     const discountTwofix = discountedAmount.toFixed(2);
-     const grandTotal = (total - discountTwofix).toFixed(2);
+    const discountedAmount = total * 0.2;
+    const discountTwofix = discountedAmount.toFixed(2);
+  const grandTotal = (total - discountTwofix).toFixed(2);
      setInnerText("discountPrice", discountTwofix);
      setInnerText("grandTotal", grandTotal);
    } 
   else {
-     alert("invalid coupon try again");
+    alert("invalid coupon try again");
    }
