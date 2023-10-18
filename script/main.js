@@ -11,6 +11,8 @@ input.addEventListener("keyup", (e) =>{
         submitBtn.setAttribute('disabled', true);
     }  
 });
+
+
 //function enable and disable button
 const tPrice = document.getElementById('totalPrice');
 const button = document.getElementById('btnPurchase');
